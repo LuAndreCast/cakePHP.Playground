@@ -1,0 +1,46 @@
+2015-03-23 04:01:27 Error: [MissingControllerException] Controller class CakephpPlaygroundController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpPlaygroundController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpPlayground/index.php/cakephpPlayground/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephpPlayground/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/MAMP/htdocs/cakephpPlayground/index.php(41): require('/Applications/M...')
+#2 {main}
+2015-03-23 04:15:23 Error: [MissingControllerException] Controller class CakephpPlaygroundController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpPlaygroundController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpPlayground/index.php/cakephpPlayground/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephpPlayground/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/MAMP/htdocs/cakephpPlayground/index.php(41): require('/Applications/M...')
+#2 {main}
+2015-03-23 04:16:37 Error: [MissingViewException] View file "Posts/hello_world.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/hello_world.ctp',
+)
+Request URL: /cakephpPlayground/index.php/Posts/helloWorld
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephpPlayground/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephpPlayground/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephpPlayground/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephpPlayground/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephpPlayground/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/cakephpPlayground/index.php(41): require('/Applications/M...')
+#6 {main}
+2015-03-23 04:17:55 Error: [MissingViewException] View file "Posts/hello_world.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/hello_world.ctp',
+)
+Request URL: /cakephpPlayground/index.php/Posts/helloWorld
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephpPlayground/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephpPlayground/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephpPlayground/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephpPlayground/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephpPlayground/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/cakephpPlayground/index.php(41): require('/Applications/M...')
+#6 {main}
