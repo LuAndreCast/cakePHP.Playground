@@ -5,6 +5,5 @@
 <p>Saying hello from our 'hello world' action ! </p>
 <!-- to view this action, do the following structure such as:
 	name of controller/ name of action
-
-	http://localhost:8888/cakephpPlayground/index.php/Posts/helloWorld
+	example: http://localhost:8888/cakephpPlayground/index.php/Posts/helloWorld
 

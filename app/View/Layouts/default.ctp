@@ -14,8 +14,8 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
-$cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
+$cakeDescription = __d('cake_dev', 'Blog');
+// $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 ?>
 <!DOCTYPE html>
 <html>
@@ -38,7 +38,11 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+			<!-- <h1> -->
+				<?php 
+					// echo $this->Html->link($cakeDescription, 'http://cakephp.org'); 
+					?> 
+			<!-- </h1> -->
 		</div>
 		<div id="content">
 
@@ -54,7 +58,9 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 				);
 			?>
 			<p>
-				<?php echo $cakeVersion; ?>
+				<?php
+				// echo $cakeVersion; 
+				?> 
 			</p>
 		</div>
 	</div>

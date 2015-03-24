@@ -1,0 +1,55 @@
+/*
+	width: 600px;
+	margin: 0 auto;
+	text-align: left;
+	-moz-border-radius: 7px;
+	-webkit-border-radius:	7px;
+*/
+
+/*this is the id that cakephp */
+#flashMessage {
+	background-color: darkblue;
+	color: white;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+
+/*cakephp applies this went the forms have an error*/
+.form-error{
+	border: 1px solid darkblue;
+}
+
+/*applied to div tags when the forms have an error*/
+.error-message{
+	background-color: darkblue;
+	color: white;
+	border: 1px solid black;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+input[type=text]{
+	width: auto;
+}
+
+input[type=submit]{
+	width: auto;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	background-color: gray;
+	color:blue ;
+}
+
+a:link, a:visited {
+	color:blue;
+}
+
+a:hover {
+	color: darkblue;
+}
